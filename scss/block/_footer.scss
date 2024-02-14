@@ -1,0 +1,433 @@
+.footer__logo_year_year {
+  color: #878787;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.footer__logo_year_paragraph {
+  color: #878787;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+
+.footer__logo_year_text {
+  max-width: 273px;
+  color: #b7b7b7;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__logo {
+  padding-bottom: 27px;
+}
+
+.footer__desktop {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.footer__services {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__services:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.footer__acsessouri_item {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__acsessouri_item:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.footer__social_media {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__social_media_main {
+  display: flex;
+  gap: 8px;
+}
+
+.footer__social_media_link {
+  color: #0071e4;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__about_location {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer__about_location:nth-child(1) {
+  padding-bottom: 16px;
+}
+
+.footer__about_num {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.footer__about_text {
+  color: #706e6e;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.footer__tablet {
+  display: none;
+}
+
+.footer__mobile {
+  display: none;
+}
+
+// ==================== tablet =========================//
+
+@media screen and (max-width: 992px) {
+  .footer__desktop {
+    display: none;
+  }
+
+  .footer__bottom_list_item_link {
+    display: flex;
+    align-items: center;
+    color: #282626;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 8px;
+  }
+
+  .footer__bottom {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.05);
+  }
+  .footer__bottom_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn1 {
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url();
+  }
+
+  .footer__bottom_list_item_link {
+    color: #282626;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .footer__tablet {
+    display: inline-block;
+  }
+
+  .footer__tablet_logo_year_text1 {
+    position: relative;
+    color: #878787;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 88px;
+    padding-bottom: 8px;
+  }
+
+  .footer__tablet_logo_year_text1::before {
+    content: "";
+    position: absolute;
+    width: 39px;
+    height: 45px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo.svg");
+  }
+
+  .footer__tablet_logo_year_text2 {
+    color: #878787;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 88px;
+    padding-bottom: 8px;
+  }
+
+  .footer__tablet_logo_year_text3 {
+    color: #b7b7b7;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 441px;
+    padding-left: 88px;
+    padding-bottom: 32px;
+  }
+
+  .footer__tablet {
+    padding-top: 24px;
+  }
+
+  .footer__tablet_list_item {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .footer__tablet_list {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 32px;
+  }
+
+  .footer__tablet_acsessuor_item {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .footer__tablet_acsessuor_list {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 32px;
+  }
+
+  .footer__tablet_about_title {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .footer__tablet_about_text {
+    color: #706e6e;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .footer__tablet_about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__tablet_about_social_media {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer__tablet_about {
+    padding-bottom: 20px;
+  }
+
+  .footer__tablet_about_link {
+    color: #0071e4;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 33px;
+  }
+
+  .footer__tablet_location {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 32px;
+  }
+
+  .footer__tablet_location:nth-child(1) {
+    padding-bottom: 8px;
+  }
+
+  .footer__bottom_link {
+    position: relative;
+    color: #282626;
+    font-family: SF Pro Display;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer__bottom_list_item_link {
+    color: #282626;
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 400;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__mobile {
+    display: inline-block;
+  }
+  .footer__desktop {
+    display: none;
+  }
+
+  .footer__tablet {
+    display: none;
+  }
+
+  .footer__bottom_links {
+    display: none;
+  }
+  .footer__mobile_logo_year_text1 {
+    color: #878787;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 4px;
+  }
+
+  .footer__mobile {
+    padding-bottom: 24px;
+  }
+
+  .footer__mobile_logo_year {
+    padding-bottom: 24px;
+  }
+
+  .footer__mobile_logo_year2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__mobile_logo_year2_text {
+    text-align: start;
+  }
+  .footer__mobile_logo_year2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .footer__mobile_logo_year_text2 {
+    color: #878787;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 4px;
+  }
+
+  .footer__mobile_logo_year_text3 {
+    max-width: 200px;
+    margin: 0 auto;
+    color: #b7b7b7;
+    font-family: SF Pro Display;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .footer-mobile-list-item {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .footer-mobile-list-item:not(:last-child) {
+    padding-bottom: 8px;
+  }
+
+  .footer-mobile-list {
+    padding-bottom: 24px;
+  }
+
+  .footer__mobile_acsessuor_list_item {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .footer__mobile_acsessuor_list_item:not(:last-child) {
+    padding-bottom: 8px;
+  }
+
+  .footer__mobile_acsessuor_list {
+    padding-bottom: 16px;
+  }
+
+  .footer__mobile_strong_num {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 4px;
+  }
+
+  .footer__mobile_watch_text {
+    color: #706e6e;
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 4px;
+  }
+
+  .footer_mobile_link1 {
+    color: #0071e4;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+  }
+
+  .footer__mobile_social_media {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 16px;
+  }
+
+  .footer__mobile_location1 {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .footer__mobile_location1:not(:last-child) {
+    padding-bottom: 8px;
+  }
+}

@@ -1,0 +1,449 @@
+.buy__title {
+  color: $prime;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+.buy__link {
+  color: $True_Blue;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.buy__stars_num {
+  color: $True_Blue;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy__card_star_like {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/like.svg");
+}
+
+.buy__card_star_filter {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/mini-filter.svg");
+}
+
+.buy__card_star_num {
+  display: flex;
+}
+
+.buy__stars_num {
+  padding-left: 8px;
+}
+
+.buy__card_stars {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.buy__card_star_like_filter {
+  display: flex;
+  gap: 8px;
+}
+
+.buy__card_title2 {
+  color: $prime;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 9px;
+}
+
+.buy__card_img {
+  padding-bottom: 16px;
+}
+
+.buy__card_year_paragraph1 {
+  position: relative;
+  color: $Dark_Silver;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 21px;
+}
+
+.buy__card_year_paragraph1::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/green-dot.svg");
+}
+
+.buy__card_year_paraggraph2 {
+  color: $Dark_Silver;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy__card_year {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4px;
+}
+
+.buy__card_money_paragraph1 {
+  color: $Taupe_Gray;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.buy__card_money_paragraph2 {
+  color: $prime;
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.buy__card_money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy__card_btn {
+  position: relative;
+  color: $Perfect_white;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: $Alien_Armpit;
+  padding: 17px 76px 17px 108px;
+}
+
+.buy__card_btn::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 76px;
+  background-repeat: no-repeat;
+  background-image: url("../img/card-basket.svg");
+}
+
+.buy__card_bottom_link1 {
+  color: $True_Blue;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy__card_bottom_link2 {
+  color: $Dark_Silver;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy__card_bottom_link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy__card {
+  max-width: 280px;
+  border-radius: 16px;
+  background-color: $Perfect_white;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+.buy__card1 {
+  padding: 16px 8px 24px 8px;
+}
+
+.card_btn_blue {
+  position: relative;
+  color: $Perfect_white;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: $True_Blue;
+  padding: 17px 76px 17px 108px;
+}
+
+.card_btn_blue::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 76px;
+  background-repeat: no-repeat;
+  background-image: url("../img/card-plus-basket.svg");
+}
+
+.buy__card_year_paragraph3 {
+  position: relative;
+  color: $True_Blue;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 21px;
+  padding-bottom: 9px;
+}
+
+.buy__card_year_paragraph3::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/blue-dot.svg");
+}
+.buy{
+  margin-bottom: 40px;
+}
+
+.buy__card3_text {
+  color: $Taupe_Gray;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.buy__card3 {
+  padding: 16px 8px 51px 8px;
+}
+
+.card_btn_link3 {
+  color: var(--prime, #0071e4);
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid var(--prime, #0071e4);
+  padding: 17px 30px;
+  text-wrap: nowrap;
+}
+
+.buy__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.buy__card_tablet {
+  display: none;
+}
+
+.buy__card_btn {
+  text-wrap: nowrap;
+}
+
+//========tablet=========//
+
+.buy__card_tablet_star_like {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/like.svg");
+}
+
+.buy__card_tablet_star_filter {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/mini-filter.svg");
+}
+
+.buy__card_tablet_star_num {
+  display: flex;
+  align-items: center;
+}
+
+.buy__card_tablet_stars {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.buy__card_tablet_star_num_paragraph {
+  color: $True_Blue;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 8px;
+}
+
+.buy__card_tablet_star_like_filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.buy__card_tablet_stars {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.buy__card_tablet_title {
+  color: #100e0e;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.buy__card_tablet {
+  max-width: 259px;
+  border-radius: 8px;
+  background: $Perfect_white;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+.buy__card_tablet_img {
+  padding-left: 60px;
+  padding-bottom: 8px;
+}
+
+.buy__card_tablet_year_text1 {
+  position: relative;
+  color: #706e6e;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.buy__card_tablet_year_text1::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/mini-green-dot.svg");
+}
+
+.buy__card_tablet_year_text2 {
+  color: #706e6e;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.buy__card_tablet_year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.buy__card_tablet_money_paragrpah {
+  color: $Taupe_Gray;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.buy__card_tablet_money_link {
+  max-width: 140px;
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #0071e4;
+  padding: 9px 40px 7px 9px;
+}
+
+.buy__card_tablet_money_link::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/card-plus-basket.svg");
+}
+
+.buy__card_tablet1 {
+  padding: 16px;
+}
+
+.buy__card_tablet {
+  max-width: 259px;
+}
+
+.buy__card_tablet_money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy__cards_tablet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .buy__card {
+    display: none;
+  }
+
+  .buy__card_tablet {
+    display: inline-block;
+  }
+
+  .buy__cards_tablet {
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .buy__title {
+    color: $prime;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .buy__title {
+    color: $prime;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .buy__link {
+    color: var(--prime, #0071e4);
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

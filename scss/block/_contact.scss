@@ -1,0 +1,196 @@
+.contact__content_title {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.contact__content_text {
+  color: #585656;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.contact__container {
+  display: flex;
+  gap: 88px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.contact{
+    background-color: #F9F9F9;
+}
+
+.contact__content_paragraph {
+  max-width: 454px;
+  padding-bottom: 25px;
+}
+
+.contact__content_discount {
+  border-radius: 16px;
+  background: linear-gradient(90deg, #f7355d 0.3%, #9747ff 101.33%);
+}
+
+.contact__content_discount_title {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+
+.contact__content_discount_text {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.form2 {
+  display: none;
+}
+
+.contact__content_discount_input {
+  max-width: 246px;
+  color: #878787;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 1px solid var(--015, #dbdbdb);
+  background: #fff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  outline-color: #9747ff;
+}
+
+.contact__content_discount_btn {
+  color: #585656;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #e7e7e7;
+  padding: 18px 33px;
+}
+
+.contact__content_discount_input_btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact__content_discount_div {
+  padding: 16px 32px 32px 32px;
+}
+
+.form1 {
+  display: none;
+}
+
+.contact{
+
+}
+
+@media screen and (max-width: 1080px) {
+  .contact__img {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .contact__content_title {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+
+
+  .contact__content_text {
+    color: #585656;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .contact__content_discount_input_btn {
+    display: none;
+  }
+
+  .contact__content_discount_input_btn {
+    display: none;
+  }
+
+  .form1{
+    display: flex;
+  }
+
+
+  .contact__content_discount_div {
+    padding: 8px 32px 8px 16px;
+  }
+
+  .contact__content_discount {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact__img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+
+  .contact__content_discount_input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact__content_discount_btn {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact__content_discount {
+    display: block;
+  }
+
+  .contact__content_discount_title {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .contact__content_discount_text {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .contact__container{
+    display: block;
+  }
+
+  .form1{
+    display: flex;
+    flex-direction: column;
+  }
+}

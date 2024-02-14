@@ -1,0 +1,137 @@
+.model__top {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.model__top_title {
+  color: #100e0e;
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 22px;
+}
+
+.model__top_text {
+  color: #585656;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.model__middle {
+  background-color: #000;
+}
+
+.model__middle_tablet_phone {
+  display: none;
+}
+
+.model__middle_mobile_phone {
+  display: none;
+}
+
+.model__middle_content_title {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 56px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.model__middle_content_paragraph {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.model__middle_content_btn {
+  color: #fff;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #0071e4;
+  padding: 18px 40px;
+}
+
+.model__middle_container {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+@media screen and (max-width: 992px) {
+  .model__middle_desktop_phone {
+    display: none;
+  }
+
+  .model__middle_tablet_phone {
+    display: inline-block;
+  }
+
+  .model__middle_content_title {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .model__middle_mobile_phone {
+    display: none;
+  }
+
+  .model__middle_content_paragraph {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .model__middle_container {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .model__top_title {
+    color: #100e0e;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .model__middle_tablet_phone {
+    display: none;
+  }
+  .model__middle_mobile_phone {
+    display: inline-block;
+  }
+
+  .model__middle_content_title {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .model__middle_content_paragraph {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .model__middle_content_btn {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #0071e4;
+    padding: 8px 20px;
+  }
+}
